@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+}
+/* Header */
+.link-image {
+  width: 50px;
+  border-radius: 15px;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+}
+
+.left-links {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 10px;
+}
+
+.header {
+  background-color: #25274d;
+  padding-bottom: 50px;
+}
+
+#contact {
+  color: aliceblue;
+  font-weight: bolder;
+}
+
+.main-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 200px;
+  margin-top: 50px;
+  margin-right: 220px;
+}
+
+.profile-photo {
+  border: 5px solid #29648a;
+}
+
+img {
+  width: 350px;
+}
+
+.info-text {
+  color: #aaabb8;
+}
+
+button {
+  background-color: #6e73c9d8;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 10px;
+  color: #16175ce1;
+  font-weight: bolder;
+  font-size: 16px;
+}
+
+/* About Me */
+
+.about-me {
+  background-color: #464866;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  padding: 100px;
+}
+
+.description {
+  max-width: 600px;
+  color: #aaabb8;
+  font-size: 18px;
+  background-color: #29648a;
+  border-radius: 25px;
+  padding: 50px;
+}
+
+#description-photo,
+.profile-photo {
+  box-shadow: 15px 15px 10px #29648a;
+}
