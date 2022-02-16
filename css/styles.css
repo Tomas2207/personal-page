@@ -1,5 +1,11 @@
 body {
   margin: 0;
+  color: #aaabb8;
+  font-size: 24px;
+}
+a {
+  text-decoration: none;
+  color: aliceblue;
 }
 /* Header */
 .link-image {
@@ -13,17 +19,18 @@ ul {
   flex-direction: row;
   gap: 20px;
   align-items: center;
+  margin: 0;
 }
 
 .left-links {
   display: flex;
   justify-content: flex-end;
-  margin-right: 10px;
+  background-color: rgba(49, 51, 53, 0.658);
+  padding: 10px;
 }
 
 .header {
-  background-color: #25274d;
-  padding-bottom: 50px;
+  background-color: rgba(0, 0, 0, 0.952);
 }
 
 #contact {
@@ -38,13 +45,12 @@ ul {
   gap: 200px;
   margin-top: 50px;
   margin-right: 220px;
+  padding-top: 150px;
 }
 
 .profile-photo {
-  border: 5px solid #29648a;
-}
-
-img {
+  border: 1px solid rgba(240, 248, 255, 0.658);
+  box-shadow: 15px 15px 10px rgba(240, 248, 255, 0.562);
   width: 350px;
 }
 
@@ -57,32 +63,99 @@ button {
   border: none;
   padding: 10px 25px;
   border-radius: 10px;
-  color: #16175ce1;
   font-weight: bolder;
-  font-size: 16px;
+  font-size: 18px;
+}
+#arrow {
+  display: flex;
+  justify-content: center;
+  padding-top: 160px;
+  padding-bottom: 60px;
 }
 
+#arrow img {
+  width: 50px;
+  border-radius: 25px;
+}
 /* About Me */
 
 .about-me {
-  background-color: #464866;
+  background-color: rgba(68, 68, 68, 0.863);
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 50px;
-  padding: 100px;
+  padding: 250px;
 }
 
 .description {
-  max-width: 600px;
-  color: #aaabb8;
-  font-size: 18px;
-  background-color: #29648a;
+  width: 600px;
+  color: rgba(0, 0, 0, 0.685);
+  font-size: 24px;
+  background-color: rgba(240, 248, 255, 0.658);
   border-radius: 25px;
   padding: 50px;
 }
+#description-photo {
+  box-shadow: 15px 15px 10px rgba(240, 248, 255, 0.562);
+  width: 700px;
+}
 
-#description-photo,
-.profile-photo {
-  box-shadow: 15px 15px 10px #29648a;
+/* Technologies */
+
+.technologies {
+  text-align: center;
+  padding: 50px;
+  background-color: rgba(0, 0, 0, 0.918);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tech-html {
+  width: 300px;
+}
+
+.tech-java {
+  width: 150px;
+}
+
+.tech-images {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  width: 750px;
+  padding: 50px;
+  border-radius: 15px;
+}
+
+/* Projects */
+
+.projects {
+  text-align: center;
+  background-color: rgba(68, 68, 68, 0.863);
+  padding: 75px;
+  color: rgba(0, 0, 0, 0.685);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 100px 0;
+}
+
+.project-photo {
+  width: 500px;
+  padding: 20px;
+  border: 5px solid #aaabb8;
+}
+
+.footer {
+  background-color: rgba(0, 0, 0, 0.952);
+  padding: 50px;
+}
+
+.footer ul {
+  margin: 0;
 }
