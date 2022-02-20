@@ -13,6 +13,10 @@ a {
   border-radius: 15px;
 }
 
+.link-image:hover {
+  box-shadow: 1px 1px 10px rgba(240, 248, 255, 0.562);
+}
+
 ul {
   list-style-type: none;
   display: flex;
@@ -66,6 +70,11 @@ button {
   font-weight: bolder;
   font-size: 18px;
 }
+
+button:hover {
+  background-color: #6066cf;
+  font-size: 22px;
+}
 #arrow {
   display: flex;
   justify-content: center;
@@ -76,6 +85,10 @@ button {
 #arrow img {
   width: 50px;
   border-radius: 25px;
+}
+
+#arrow img:hover {
+  box-shadow: 1px 1px 10px rgba(240, 248, 255, 0.562);
 }
 /* About Me */
 
@@ -140,6 +153,7 @@ button {
 
 .container {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   gap: 20px;
   margin: 100px 0;
