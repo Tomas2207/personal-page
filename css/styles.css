@@ -14,7 +14,8 @@ a {
 }
 
 .link-image:hover {
-  box-shadow: 1px 1px 10px rgba(240, 248, 255, 0.562);
+  /* box-shadow: 1px 1px 10px rgba(240, 248, 255, 0.562); */
+  transform: scale(1.1);
 }
 
 ul {
@@ -73,7 +74,7 @@ button {
 
 button:hover {
   background-color: #6066cf;
-  font-size: 22px;
+  transform: scale(1.1);
 }
 #arrow {
   display: flex;
